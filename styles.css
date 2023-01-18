@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    min-width: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+         
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    
+    
+
+
+}
+.container {
+    position: fixed;
+    
+}
+
+.video1 {
+    position: fixed;
+    top: 100px;
+    left: 600px;
+    
+}
+.video2 {
+    position: fixed;
+    top: 100px;
+    left: 950px;
+    
+}
+.video3 {
+    position: fixed;
+    top: 510px;
+    left: 600px;
+}
+.video4 {
+    position: fixed;
+    top: 510px;
+    left: 950px;
+}
+#aredesocial {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+#jobs {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+}
+#ojogodaimitacao {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+}
+#theplaylist {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+
+
+
