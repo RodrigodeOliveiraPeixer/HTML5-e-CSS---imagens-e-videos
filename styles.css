@@ -1,39 +1,35 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     min-width: 100vh;
     background-color: rgb(0, 0, 0);
-    display: flex;
+    display: flex; 
     justify-content: center;
-    align-items: center;
-         
+    align-items: center;      
 }
 h1 {
     font-family: 'Poppins', sans-serif;
+    position: fixed;
     color: #fff;
-    
-    
-
-
+    top: 30px;  
 }
 .container {
-    position: fixed;
-    
+    display: flex;       
 }
-
 .video1 {
     position: fixed;
     top: 100px;
-    left: 600px;
-    
+    left: 600px; 
 }
 .video2 {
     position: fixed;
     top: 100px;
     left: 950px;
-    
 }
 .video3 {
     position: fixed;
@@ -45,27 +41,37 @@ h1 {
     top: 510px;
     left: 950px;
 }
-#aredesocial {
-    width: 280px;
-    height: 400px;
-    border-radius: 10px;
-    
-}
-#jobs {
+.container img  {
     width: 280px;
     height: 400px;
     border-radius: 10px;
 }
-#ojogodaimitacao {
-    width: 280px;
-    height: 400px;
-    border-radius: 10px;
+.tituloaredesocial ,.titulojobs, .tituloojogodaimitacao, .titulotheplaylist{
+    position: fixed;
+    top: 30px;
+    left: center;
 }
-#theplaylist {
-    width: 280px;
-    height: 400px;
-    border-radius: 10px;
+.traileraredesocial ,.trailerjobs, .trailerojogodaimitacao, .trailertheplaylist{
+    position: fixed;
+    top: 110px;
+    left: center;
 }
+#videoaredesocial ,#videojobs, #videoojogodaimitacao, #videotheplaylist{
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    border: 2px solid rgb(4, 152, 238);
+}
+#voltar{
+    position: fixed;
+    top: 800px;
+    left: center;
+}
+
+
+  
+
+
 
 
 
